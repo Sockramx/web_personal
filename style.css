@@ -44,3 +44,20 @@ nav{
 	border:1px solid black;
 	padding-top: 1em;
 }
+
+
+
+@media screen and (max-width:980px) {
+	#contenido {
+		font-size: 20px;
+	}
+	#publicacion {
+		text-align: center;
+		width: 100%;
+	}
+	#publicacidad ul li{
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+}
