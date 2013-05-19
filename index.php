@@ -9,12 +9,14 @@
 	<header>
 		<nav>
 			<ul>
-				<li><img src="" height='100' width='100'></li>
-				<li>OPCIONES</li>
-				<li>OPCIONES</li>
-				<li>OPCIONES</li>
+				<li><a href="#"></a> OPCIONES</li>
+				<li><a href="#"></a> OPCIONES</li>
+				<li><a href="#"></a> OPCIONES</li>
 			</ul>
 		</nav>
+		<div id='banner'>
+			
+		</div>
 	</header>
 </body>
 </html>
