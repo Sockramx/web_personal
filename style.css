@@ -2,9 +2,6 @@
 	padding: 0%;
 	margin: 0%;	
 }
-body {
-	background-color: black;
-}
 
 /* Estilos de la cabecera */
 
@@ -46,8 +43,10 @@ div	{
 	margin: 0 auto;
 }
 div section {
-	padding: 1em;
-	float: left;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0.5em;
+		
 }
 div #contenido { 	/*Aqui van todos los post*/
 	background-color: #4169E1;
@@ -79,9 +78,17 @@ div #extra{
 }
 
 
-@media (width:1000px) {
-	div	{
+@media (max-width:1000px) {
+	div #contenido { 	/*Aqui van todos los post*/
+		background-color: #4169E1;
 		width: 100%;
-		margin: 0 auto;
 	}
+	div #extra {
+		width: 100%;
+	}
+	div #extra article{ 	
+	background-color: white;
+	display: block;
+}
+
 }
