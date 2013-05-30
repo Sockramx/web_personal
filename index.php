@@ -33,7 +33,11 @@
 		</section>
 		<section id='extra'>
 			<form>
-				ID: <input type='text'/>
+				<div>
+					<img src="img/skorer.jpg" height='100' width='100'>
+				</div>
+					
+				ID: <input type='text'/> <br>
 				Pass: <input type='text'/>
 			</form>
 		</section>
