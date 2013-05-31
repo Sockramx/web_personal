@@ -36,9 +36,9 @@
 				<div>
 					<img src="img/skorer.jpg" height='100' width='100'>
 				</div>
-					
-				ID: <input type='text'/> <br>
-				Pass: <input type='text'/>
+				ID: 	<input type='text'/> <br>
+				Pass: 	<input type='password'/>
+				<input type='submit' value='Login'/>
 			</form>
 		</section>
 	</div>
