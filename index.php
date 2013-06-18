@@ -36,8 +36,8 @@
 			<article id='log'>
 				<form action="funciones.php" method="POST">
 					<ul>
-						<li><label>Nombre</label><br><input type="text"/><br></li>
-						<li><label>E-mail</label><br><input type="text"/><br></li>
+						<li><label>Nombre</label><br><input type="text" name="nombre"/><br></li>
+						<li><label>E-mail</label><br><input type="text" name="email"/><br></li>
 						<li><input class="boton" type="submit" value="Enviar"/></li>
 					</ul>
 				</form>
